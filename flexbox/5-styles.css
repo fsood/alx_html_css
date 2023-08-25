@@ -210,9 +210,9 @@ ul.row {
   /* Navbar
       ============================= */
   
-  .navbar-menu {
+ /*  .navbar-menu {
     float: right;
-  }
+  } */
   
   .nav {
     margin: 0;
@@ -262,9 +262,13 @@ ul.row {
   
   .header {
     .header-container {
-        display: flex;
-        justify-content: space-between;
-      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Center items vertically */
+      padding: var(--header-padding);
+      background-color: var(--header-background);
+      box-shadow: var(--header-box-shadow);
+    }
   }
   
   /*.header-logo {
