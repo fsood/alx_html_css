@@ -45,6 +45,8 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
+  --header-background: transparent;
+  --header-box-shadow: none;x
     /* --header-logo-position: relative;
     --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
@@ -260,16 +262,16 @@ ul.row {
   /* Header
       ============================= */
   
-  .header {
-    .header-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; /* Center items vertically */
-      padding: var(--header-padding);
-      background-color: var(--header-background);
-      box-shadow: var(--header-box-shadow);
-    }
-  }
+      .header {
+        .header-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; /* Center items vertically */
+          padding: var(--header-padding);
+          background-color: var(--header-background);
+          box-shadow: var(--header-box-shadow);
+        }
+      }
   
   /*.header-logo {
   }

@@ -258,16 +258,16 @@ ul.row {
   /* Header
       ============================= */
   
-  .header {
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; /* Center items vertically */
-        padding: var(--header-padding);
-        background-color: var(--header-background);
-        box-shadow: var(--header-box-shadow);
+      .header {
+        .header-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; /* Center items vertically */
+          padding: var(--header-padding);
+          background-color: var(--header-background);
+          box-shadow: var(--header-box-shadow);
+        }
       }
-  }
   
  
   
